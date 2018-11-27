@@ -4,7 +4,7 @@ int main()
 {
     int a,i=0;
     scanf("%d",&a);
-    while(a>0);
+    while(a>0)
     {
         a=a/10;
         i++;
