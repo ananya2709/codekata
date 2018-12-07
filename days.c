@@ -4,7 +4,7 @@ int main()
 {
 char s[10];
 gets(s);
-if(s=='sunday')
+if(s=='Sunday')
 {
     printf("yes");
 
