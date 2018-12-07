@@ -2,7 +2,7 @@ int main()
 {
 int count=0,a,b,i,j,prime=0;
 scanf("%d%d",&a,&b);
-for(i=a;i<b-1;i++)
+for(i=a;i<b;i++)
 {
     for(j=2;j<i/2;j++)
     {
