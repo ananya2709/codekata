@@ -12,10 +12,10 @@ int main()
         if(s[i]!='a'&&s[i]!='e'&&s[i]!='i'&&s[i]!='o'&&s[i]!='u')
         {
         r[h]=s[i];
-        
+         printf("%c",r[h]);
         h++;
         }
     }
-printf("%s",r);
+
     return 0;
 }
