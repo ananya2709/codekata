@@ -6,7 +6,8 @@ int main()
     scanf("%d",&m);
     if(m<60)
     {
-        printf("%d",m);
+        h=0;
+        printf("%d %d",h,m);
     }
     else if(m==60)
     {  
