@@ -15,10 +15,10 @@ int main()
             b=1;
         }
     }
-    if(b==0)
-    printf("no");
-    else
+    if(b==1)
     printf("yes");
+    else
+    printf("no");
 
     return 0;
 }
