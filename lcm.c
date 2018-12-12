@@ -14,14 +14,15 @@ int main()
 		    n=n/i;
 		    m=m/i;
 		    lcm=lcm*i;
-			if(m==1)
-			lcm=lcm*n;
-			if(n==1)
-			lcm=lcm*m;
+			
 		}
 		}
 	}
-
+if(m==1||m==2||m==3||n==1||n==2||n==3)
+			{
+			    lcm=lcm*n;
+			    lcm=lcm*n;
+			}
 printf("%d",lcm);
 return 0;
 }
