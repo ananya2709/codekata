@@ -30,6 +30,10 @@ int main()
                 printf("%d",a[i]);
            }
         }
+    if(n==1)
+        {
+            printf("%d",a[0]);
+        }
         
             return 0;
         
