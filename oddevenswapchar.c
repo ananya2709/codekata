@@ -7,7 +7,7 @@ int main()
     gets(string);
     for(i=1;i<=strlen(string);i++)
     {
-        printf("%d\n",i);
+       
         if(i%2==0)
         {
             c = string[i-1] ; 
