@@ -5,13 +5,16 @@ int main()
     char string[10],c;
     int i;
     gets(string);
-    for(i=1;i<=strlen(string)+1;i++)
+    for(i=1;i<=strlen(string);i++)
     {
+        printf("%d\n",i);
         if(i%2==0)
         {
-            c = string[i] ; 
-			string[i] = string[i-1];  
-			string[i-1] = c;
+            c = string[i-1] ; 
+          
+			string[i-1] = string[i-2]; 
+		
+			string[i-2] = c;
 	
         }
     }
