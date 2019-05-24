@@ -7,13 +7,13 @@ int main()
     scanf("%s",a);
     scanf("%d",&n);
     //printf("hi");
-    for(i=n;i<strlen(a);i++)
+    for(i=strlen(a)-n;i<strlen(a);i++)
     {
         //printf("hoi");
         printf("%c",a[i]);
         
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<strlen(a)-n;i++)
     {
         printf("%c",a[i]);
     }
